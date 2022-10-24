@@ -1,0 +1,36 @@
+.FormContainer{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    height: 100px;
+}
+.FormInput{
+    padding: 15px;
+    width: 75%;
+    margin-left: 5px;
+    border: 2px solid rgb(194, 187, 187);
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.FormButton{
+    padding: 15px;
+    font-weight: bold;
+    width: 20%;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 4px;
+    margin-right: 5px;
+    border: 2px solid rgb(194, 187, 187);
+    transition: all 0.3s;
+    
+}
+
+.FormButton:hover{
+    background-color:rgb(194, 187, 187); 
+    color: white;
+    cursor: pointer;
+}
